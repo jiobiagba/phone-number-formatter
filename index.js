@@ -28,7 +28,7 @@ fs.readFile(process.argv[2], "utf8", (err, data) => {
     // Then put \n after every comma
     const trimmedData = data
         .trim()
-        .replace(/[ ]+/g, "")
+        .replace(/[\n\r\s]+/g, "")
         .replace(/[,]{1}/g, "," + "\n");
 
     // Write this to a file
