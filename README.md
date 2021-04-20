@@ -1,0 +1,2 @@
+__OVERVIEW__
+This application was created to assist in formatting extracted phone numbers from socail media platforms. Primarily, **it removes all leading, trailing, and in-between white spaces from phone numbers and seperates new phone numbers to a new line using a comma as the delimiter.**
